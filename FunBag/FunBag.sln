@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29209.62
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunBag", "FunBag\FunBag.csproj", "{CED1A465-7190-42CF-9E92-65B0CAA5F2EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBag", "TestBag\TestBag.csproj", "{1BEEADF9-7A7C-46C2-97FC-8AA3127AC55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CED1A465-7190-42CF-9E92-65B0CAA5F2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED1A465-7190-42CF-9E92-65B0CAA5F2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED1A465-7190-42CF-9E92-65B0CAA5F2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BEEADF9-7A7C-46C2-97FC-8AA3127AC55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEEADF9-7A7C-46C2-97FC-8AA3127AC55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEEADF9-7A7C-46C2-97FC-8AA3127AC55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEEADF9-7A7C-46C2-97FC-8AA3127AC55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
