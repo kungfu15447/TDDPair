@@ -9,5 +9,6 @@ namespace FunBag
         void Add(int Item);
         int Remove();
         int CountSize();
+        List<int> getBag();
     }
 }

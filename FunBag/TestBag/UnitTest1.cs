@@ -1,5 +1,6 @@
 using FunBag;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace TestBag
 {
@@ -47,5 +48,17 @@ namespace TestBag
             int removedItem = bag.Remove();
             Assert.IsTrue(removedItem == 2);
         }
+
+        [TestMethod]
+        public void TestIfSorted()
+        {
+            IBag bag = new Bag();
+            List<int> sortedBag = new List<int>() {2,3,4};
+            bag.Add(4);
+            bag.Add(3);
+            bag.Add(2);
+            Assert.IsTrue(bag.getBag() == sortedBag);
+        }
+
     }
 }
