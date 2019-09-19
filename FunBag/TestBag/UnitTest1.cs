@@ -57,7 +57,7 @@ namespace TestBag
             bag.Add(4);
             bag.Add(3);
             bag.Add(2);
-            Assert.IsTrue(bag.getBag() == sortedBag);
+            CollectionAssert.AreEqual(bag.getBag(), sortedBag);
         }
 
     }

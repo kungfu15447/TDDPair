@@ -20,7 +20,7 @@ namespace FunBag
                     {
                         bag.Insert(i, Item);
                         break;
-                    }else if (i == bag.Count-1)
+                    }else if (Item < bag[i])
                     {
                         bag.Insert(0, Item);
                         break;
